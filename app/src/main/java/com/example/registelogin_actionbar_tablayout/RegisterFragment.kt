@@ -93,7 +93,7 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
                 }
             }
 
-            txtNewMember.setOnClickListener{
+            txtToLogin.setOnClickListener{
                 (requireActivity() as? MainActivity)?.switchFragment(1)
             }
         }
